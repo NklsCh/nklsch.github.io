@@ -76,11 +76,9 @@ params:
     title: 'About Me'
     image: '/images/me.jpg'
     content: |-
-      I am a software developer with a passion for cyber security with a technical diploma in Computer science and English I am currently in a trainee as Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW Germany.
+      I am a software developer with a strong interest in cybersecurity, holding a technical diploma in Computer Science and English. At present, I am a trainee Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW, Germany. 
 
-      I am currently working on a Discord bot that helps admins and moderators moderate the server.
-
-      You can find out more about me on my [LinkedIn](https://www.linkedin.com/in/nchoini/) or my [Github](https://github.com/nklsch)
+      I am currently engaged in developing a Discord bot to assist administrators and moderators in managing their servers.
 
       Here are some of my Skills:
     programming_languages:
@@ -127,7 +125,7 @@ params:
           enable: false
           name: 'View the project'
           url: 'https://example.com'
-        content: 'I am currently in a trainee as Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW Germany.'
+        content: ''
 
   # Education
   education:
@@ -141,7 +139,6 @@ params:
           name: 'Berufskolleg Uerdingen'
           url: 'https://www.bkukr.de/'
         # GPA: '2.9 out of 6'
-        content: 'Part of the apprenticeship'
         featuredLink:
           enable: false
           url: 'https://example.com'
@@ -184,8 +181,9 @@ params:
     # title: "Custom Name"
     items:
       - title: Proton Discord Bot
-        content: A customizable Discord Bot for server management.
+        content: A customizable Discord bot for server management.
         image: https://opengraph.githubassets.com/7fa70ab8da2623ca2a9ce4932f6745705c7e1e36f01d099f2ddd364935cbbbe1/Proton-Discord-Bot/Proton
+        role: Lead Developer
         featured:
           name: Source
           link: https://github.com/Proton-Discord-Bot/Proton
