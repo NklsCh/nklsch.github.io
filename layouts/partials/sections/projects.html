@@ -21,14 +21,14 @@
             <div class="card-text bg-transparent secondary-font">
               {{ .content }}
             </div>
-            <div
-              class="card-text bg-transparent secondary-font text-secondary fs-6"
+            <small
+              class="card-text bg-transparent secondary-font text-secondary py-6"
             >
               Role:
-              <span class="badge badge-secondary text-secondary"
-                >{{ .role }}</span
-              >
-            </div>
+              <div class="badge badge-secondary text-secondary">
+                {{ .role }}
+              </div>
+            </small>
           </div>
           {{ if or (.links) (.featured) }}
           <div class="card-footer py-3">
