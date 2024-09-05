@@ -1,7 +1,7 @@
 baseURL: 'https://nklsch.github.io'
 languageCode: 'en-us'
 title: 'Niklas Choinowski'
-theme: profiles
+#theme: profiles
 
 outputs:
   home:
