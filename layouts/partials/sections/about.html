@@ -1,0 +1,67 @@
+{{ if .Site.Params.about.enable | default false }}
+<section id="about" class="py-0 py-sm-5">
+  <div class="container bg-transparent">
+    <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
+    <div class="bg-transparent row justify-content-center px-3 py-5">
+      {{ if .Site.Params.about.image }}
+      <div
+        class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block"
+      >
+        <div class="image d-flex px-5">
+          <img
+            src="{{ .Site.Params.about.image }}"
+            class="img-thumbnail mx-auto rounded-circle"
+            alt=""
+          />
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-sm-12 col-md-12 col-lg-8 content">
+        {{ .Site.Params.about.content | markdownify }} {{ end }} {{ if
+        .Site.Params.about.programming_languages.enable }} {{
+        .Site.Params.about.programming_languages.title }}
+        <ul>
+          {{ range .Site.Params.about.programming_languages.items }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }} {{ if .Site.Params.about.libs_frameworks.enable }} {{
+        .Site.Params.about.libs_frameworks.title }}
+        <ul>
+          {{ range .Site.Params.about.libs_frameworks.items }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }} {{ if .Site.Params.about.markup_style.enable }} {{
+        .Site.Params.about.markup_style.title }}
+        <ul>
+          {{ range .Site.Params.about.markup_style.items }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }} {{ if .Site.Params.about.devops.enable }} {{
+        .Site.Params.about.devops.title }}
+        <ul>
+          {{ range .Site.Params.about.devops.items }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }} {{ if .Site.Params.about.databases.enable }} {{
+        .Site.Params.about.databases.title }}
+        <ul>
+          {{ range .Site.Params.about.databases.items }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }} {{ if .Site.Params.about.software_tools.enable }} {{
+        .Site.Params.about.software_tools.title }}
+        <ul>
+          {{ range .Site.Params.about.software_tools.items }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

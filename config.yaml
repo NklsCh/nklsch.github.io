@@ -1,0 +1,243 @@
+baseURL: 'https://nklsch.github.io'
+languageCode: 'en-us'
+title: 'Niklas Choinowski'
+theme: profiles
+
+outputs:
+  home:
+    - 'HTML'
+    - 'RSS'
+    - 'JSON'
+  page:
+    - 'HTML'
+    - 'RSS'
+
+Paginate: 3
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  useBootstrapCDN: fals
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  navbar:
+    align: ms-auto
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: 'Hi, my name is'
+    title: 'Niklas.'
+    subtitle: 'I build things'
+    content: 'I am a passionate developer with a strong interest in cybersecurity and Linux.'
+    image: /images/me.jpg
+    bottomImage:
+      enable: true
+    roundImage: true
+    button:
+      enable: true
+      name: 'Resume'
+      url: '#'
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/nklsch
+
+  # About
+  about:
+    enable: true
+    title: 'About Me'
+    image: '/images/me.jpg'
+    content: |-
+      I am a software developer with a passion for cyber security with a technical diploma in Computer science and English I am currently in a trainee as Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW Germany.
+
+      I am currently working on a Discord bot that helps admins and moderators moderate the server.
+
+      You can find out more about me on my [LinkedIn](https://www.linkedin.com/in/nchoini/) or my [Github](https://github.com/nklsch)
+
+      Here are some of my Skills:
+    programming_languages:
+      enable: true
+      title: '📌 Programming languages'
+      items:
+        - '[![Programming Languages](https://skillicons.dev/icons?i=js,java,cs,bash,nix,php)](https://skillicons.dev)'
+    libs_frameworks:
+      enable: true
+      title: '📚 Libraries and Frameworks'
+      items:
+        - '[![Libraries and Frameworks](https://skillicons.dev/icons?i=nodejs,bootstrap)](https://skillicons.dev)'
+    markup_style:
+      enable: true
+      title: '🎨 Markup and Style Languages'
+      items:
+        - '[![Markup and Style Languages](https://skillicons.dev/icons?i=html,css,markdown)](https://skillicons.dev)'
+    devops:
+      enable: true
+      title: '🧠 DevOps'
+      items:
+        - '[![DevOps Tools](https://skillicons.dev/icons?i=docker,azure)](https://skillicons.dev)'
+    databases:
+      enable: true
+      title: '🗄️ Databases'
+      items:
+        - '[![Databases](https://skillicons.dev/icons?i=mysql,postgres,sqlite)](https://skillicons.dev)'
+    software_tools:
+      enable: true
+      title: '🔧 Software and Tools'
+      items:
+        - '[![Software and Tools](https://skillicons.dev/icons?i=git,github,neovim,linux,obsidian)](https://skillicons.dev)'
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: 'Trainee Java Developer'
+        company: 'develogment GmbH & Co. KG'
+        companyUrl: 'https://www.develogment.com'
+        date: 'Aug 2022 - present'
+        featuredLink:
+          enable: false
+          name: 'View the project'
+          url: 'https://example.com'
+        content: 'I am currently in a trainee as Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW Germany.'
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: 'High School'
+        date: 2014-2022
+        school:
+          name: 'Clara-Schumann-Gymnasium'
+          url: 'https://clara-duelken.de/'
+        GPA: '2.9 out of 6'
+        content: 'Technical diploma in computer science and English.'
+        featuredLink:
+          enable: false
+          url: 'https://example.com'
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievment.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievment.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: 'https://github.com/gurusabarish/hugo-profile'
+        image: /images/achievment.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Proton Discord Bot
+        content: A customizable Discord Bot for server management.
+        image: https://opengraph.githubassets.com/7fa70ab8da2623ca2a9ce4932f6745705c7e1e36f01d099f2ddd364935cbbbe1/Proton-Discord-Bot/Proton
+        featured:
+          name: Source
+          link: https://github.com/Proton-Discord-Bot/Proton
+        badges:
+          - 'JavaScript'
+          - 'SQL'
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Proton-Discord-Bot/Proton
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: '
+      Matrix: @festplatte_c:matrix.org<br>
+      Discord: v3rm1n<br>
+      '
+    btnName: Mail me (Insecure)
+    btnlink: 'mailto:niklas.choinowski@gmail.com'
+
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    socialNetworks:
+      github: https://github.com/nklsch
+      linkedin: https://www.linkedin.com/in/nchoini/
+      instagram: https://instagram.com/nkls.ch
+
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: 'min read'
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: 'Read'
+    toc: 'Table Of Contents'
+    copyright: 'All rights reserved'
+    pageNotFound: 'Page not found'
+    emailText: 'Check out this site'
+
+  datesFormat:
+    article: 'Jan 2, 2006'
+    articleList: 'Jan 2, 2006'
+    articleRecent: 'Jan 2, 2006'
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
