@@ -135,6 +135,16 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: 'Trade School'
+        date: 2022-Present
+        school:
+          name: 'Berufskolleg Uerdingen'
+          url: 'https://www.bkukr.de/'
+        # GPA: '2.9 out of 6'
+        content: 'Part of the apprenticeship'
+        featuredLink:
+          enable: false
+          url: 'https://example.com'
       - title: 'High School'
         date: 2014-2022
         school:
