@@ -29,11 +29,11 @@
                 <a href="{{ .school.url }}" target="_blank">
                   <h6>{{ .school.name }}</h6>
                 </a>
-                {{ else }} {{ .school.name }} {{ end }} {{ if .GPA }}
+                {{ else }} {{ .school.name }} {{ end }} {{ if .Grade }}
                 <div class="py-1">
                   Grade:
                   <i>
-                    <small>{{ .GPA }}</small>
+                    <small>{{ .Grade }}</small>
                   </i>
                 </div>
                 {{ end }}

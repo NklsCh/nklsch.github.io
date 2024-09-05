@@ -138,7 +138,7 @@ params:
         school:
           name: 'Berufskolleg Uerdingen'
           url: 'https://www.bkukr.de/'
-        # GPA: '2.9 out of 6'
+        # Grade: '2.9 out of 6'
         featuredLink:
           enable: false
           url: 'https://example.com'
@@ -147,7 +147,7 @@ params:
         school:
           name: 'Clara-Schumann-Gymnasium'
           url: 'https://clara-duelken.de/'
-        GPA: '2.9 out of 6'
+        Grade: '2.9 out of 6'
         content: 'Technical diploma in computer science and English.'
         featuredLink:
           enable: false
