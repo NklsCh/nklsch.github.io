@@ -159,7 +159,7 @@ params:
     title: 'Certs'
     items:
       - title: Google's Foundations of Cybersecurity
-        content: Completed all modules of the Foundations of Cybersecurity Couse
+        content: Completed all modules of the Foundations of Cybersecurity Course
         url: https://coursera.org/verify/N3A3KHAVEFMO
         image: /images/certs/foundations-of-cybersecurity.jpg
 
