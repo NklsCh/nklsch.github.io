@@ -158,10 +158,21 @@ params:
     enable: true
     title: 'Certs'
     items:
-      - title: Google's Foundations of Cybersecurity
-        content: Completed all modules of the Foundations of Cybersecurity Course
+      - title: "Google's Foundations of Cybersecurity"
         url: https://coursera.org/verify/N3A3KHAVEFMO
         image: /images/certs/foundations-of-cybersecurity.jpg
+
+      - title: "Google's Play It Safe: Manage Security Risks"
+        url: https://coursera.org/verify/LKYIZ0TZ108X
+        image: /images/certs/manage-security-risks.png
+
+      - title: "Google's Connect and Protect: Networks and Network Security"
+        url: https://coursera.org/verify/2CFBXAVC6T53
+        image: /images/certs/networks-and-network-security.png
+
+      - title: "Google's Tools of the Trade: Linux and SQL"
+        url: https://coursera.org/verify/S7N30CCUHQZK
+        image: /images/certs/linux-and-sql.png
 
   # projects
   projects:
@@ -183,6 +194,17 @@ params:
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/Proton-Discord-Bot/Proton
+      - title: NixOS Config
+        content: My NixOS system config
+        image: https://opengraph.githubassets.com/b3cd122e7838e3040dfbfd39a0742cfc4af7b12ea6d5cf7efadc9001e80c2897/NklsCh/nixos-config
+        role: Maintainer
+        featured:
+          name: Source
+          link: https://github.com/NklsCh/nixos-config
+        badges:
+          - 'Nix'
+          - 'Shell'
+        links:
 
   #Contact
   contact:
