@@ -211,7 +211,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: '
-      Matrix: @festplatte_c:matrix.org<br>
+      Matrix: @v3rm1n_:matrix.org<br>
       Discord: v3rm1n<br>
       '
     btnName: Mail me (Insecure)
