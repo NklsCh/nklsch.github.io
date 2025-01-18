@@ -12,7 +12,7 @@ outputs:
     - 'HTML'
     - 'RSS'
 
-Paginate: 3
+PagerSize: 3
 enableRobotsTXT: true
 
 markup:
@@ -158,21 +158,9 @@ params:
     enable: true
     title: 'Certs'
     items:
-      - title: "Google's Foundations of Cybersecurity"
-        url: https://coursera.org/verify/N3A3KHAVEFMO
-        image: /images/certs/foundations-of-cybersecurity.jpg
-
-      - title: "Google's Play It Safe: Manage Security Risks"
-        url: https://coursera.org/verify/LKYIZ0TZ108X
-        image: /images/certs/manage-security-risks.png
-
-      - title: "Google's Connect and Protect: Networks and Network Security"
-        url: https://coursera.org/verify/2CFBXAVC6T53
-        image: /images/certs/networks-and-network-security.png
-
-      - title: "Google's Tools of the Trade: Linux and SQL"
-        url: https://coursera.org/verify/S7N30CCUHQZK
-        image: /images/certs/linux-and-sql.png
+      - title: 'Google Cybersecurity Professional Certificate'
+        url: https://coursera.org/verify/professional-cert/ZC6JUM2ONP7I
+        image: /images/certs/google-cybersecurity.png
 
   # projects
   projects:
@@ -215,7 +203,7 @@ params:
       Discord: v3rm1n<br>
       '
     btnName: Mail me (Insecure)
-    btnlink: 'mailto:niklas.choinowski@gmail.com'
+    btnlink: 'mailto:niklas.choinowski@tuta.com'
 
     # formspree:
     #   enable: true # `contact.email` value will be ignored
