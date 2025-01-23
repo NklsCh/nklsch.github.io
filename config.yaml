@@ -53,7 +53,7 @@ params:
     enable: true
     intro: 'Hi, my name is'
     title: 'Niklas.'
-    subtitle: 'I build things'
+    subtitle: 'I build stuff'
     content: 'I am a passionate developer with a strong interest in cybersecurity and Linux.'
     image: /images/me.jpg
     bottomImage:
