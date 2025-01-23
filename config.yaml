@@ -184,7 +184,7 @@ params:
             url: https://github.com/Proton-Discord-Bot/Proton
       - title: NixOS Config
         content: My NixOS system config
-        image: https://opengraph.githubassets.com/b3cd122e7838e3040dfbfd39a0742cfc4af7b12ea6d5cf7efadc9001e80c2897/NklsCh/nixos-config
+        image: https://opengraph.githubassets.com/latest/nklsch/nixos-config
         role: Maintainer
         featured:
           name: Source
@@ -201,6 +201,7 @@ params:
     content: '
       Matrix: @v3rm1n_:matrix.org<br>
       Discord: v3rm1n<br>
+      Session: 05d9d92b4d4b53c818859d8e8ef69fedb0e3f10bc59abffed6b4bed424a1d2fc37<br>
       '
     btnName: Mail me (Insecure)
     btnlink: 'mailto:niklas.choinowski@tuta.com'
