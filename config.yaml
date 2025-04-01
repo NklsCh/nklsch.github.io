@@ -53,8 +53,11 @@ params:
     enable: true
     intro: 'Hi, my name is'
     title: 'Niklas.'
-    subtitle: 'I build stuff'
-    content: 'I am a passionate developer with a strong interest in cybersecurity and Linux.'
+    #subtitle: 'I build stuff'
+    content: |
+      I am a software developer with a strong interest in cybersecurity, holding a technical diploma in Computer Science and English. At present, I am a trainee Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW, Germany. 
+
+      I am currently engaged in developing a Discord bot to assist administrators and moderators in managing their servers.
     image: /images/me.jpg
     bottomImage:
       enable: true
@@ -69,6 +72,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/nklsch
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/nchoini
 
   # About
   about:
@@ -76,9 +81,11 @@ params:
     title: 'About Me'
     image: '/images/me.jpg'
     content: |-
-      I am a software developer with a strong interest in cybersecurity, holding a technical diploma in Computer Science and English. At present, I am a trainee Java developer at [develogment GmbH & Co. KG](https://www.develogment.com) in Kempen, NRW, Germany. 
+      Hi, I am Niklas. Since my childhood, I have been obsessed with computers—or more precisely, video games. After finding the most awesome game ever, Minecraft, I developed a strong interest in programming, and so my journey began. I learned Java and SQL in school and decided pretty fast, “That’s what I want to do.”
 
-      I am currently engaged in developing a Discord bot to assist administrators and moderators in managing their servers.
+      As I grew older, my interests shifted slightly, and I also developed an interest in movies—especially an all-time classic when it comes to computers, The Matrix. Hacking became my biggest dream. During my late teenage years, I realized that hacking was a bit out of my league, so I started by analyzing my own systems for existing vulnerabilities and fixing them whenever possible.
+
+      In 2024, I started my first cybersecurity certificate, the Cybersecurity Professional Certificate by Google, and earned it in January 2025. Soon, I will begin preparing for the CompTIA Security+ certification after I finish my apprenticeship. That’s all about me. My wish is to work in cybersecurity as an analyst because I’ve grown fond of this fascinating and rapidly changing field.
 
       Here are some of my Skills:
     programming_languages:
@@ -199,9 +206,9 @@ params:
     enable: true
     # title: "Custom Name"
     content: '
+      Signal: v3rm1n.42<br>
       Matrix: @v3rm1n_:matrix.org<br>
       Discord: v3rm1n<br>
-      Session: 05d9d92b4d4b53c818859d8e8ef69fedb0e3f10bc59abffed6b4bed424a1d2fc37<br>
       '
     btnName: Mail me (Insecure)
     btnlink: 'mailto:niklas.choinowski@tuta.com'
