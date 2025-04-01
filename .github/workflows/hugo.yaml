@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.123.0
+      HUGO_VERSION: 0.145.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -63,13 +63,11 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: ./public
 
   # Deployment job
   deploy:
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
