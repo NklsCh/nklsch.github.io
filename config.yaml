@@ -65,7 +65,7 @@ params:
     button:
       enable: true
       name: 'Resume'
-      url: '#'
+      url: 'https://paperless.choini.de/share/1z0LMmRN1p0wHzy4P5boIugu11YnvIdSrrhF5khz4KYv6WwCnX'
       download: true
       newPage: false
     socialLinks:
