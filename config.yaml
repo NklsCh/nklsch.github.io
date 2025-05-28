@@ -178,28 +178,36 @@ params:
         content: A customizable Discord bot for server management.
         image: https://opengraph.githubassets.com/7fa70ab8da2623ca2a9ce4932f6745705c7e1e36f01d099f2ddd364935cbbbe1/Proton-Discord-Bot/Proton
         role: Lead Developer
-        featured:
-          name: Source
-          link: https://github.com/Proton-Discord-Bot/Proton
         badges:
           - 'JavaScript'
           - 'SQL'
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
+          - icon: fa-solid fa-code
             url: https://github.com/Proton-Discord-Bot/Proton
       - title: NixOS Config
         content: My NixOS system config
         image: https://opengraph.githubassets.com/latest/nklsch/nixos-config
         role: Maintainer
-        featured:
-          name: Source
-          link: https://github.com/NklsCh/nixos-config
         badges:
+          - 'Linux'
           - 'Nix'
           - 'Shell'
         links:
+          - icon: fa-solid fa-code
+            url: https://github.com/NklsCh/nixos-config
+      - title: Jas-SinghFSU's HyprPanel
+        content: A panel built for Hyprland with Astal
+        image: https://opengraph.githubassets.com/latest/Jas-SinghFSU/HyprPanel
+        role: Contributer
+        badges:
+          - 'Linux'
+          - 'Shell'
+          - 'Hyprland'
+        links:
+          - icon: fa-solid fa-code
+            url: https://github.com/Jas-SinghFSU/HyprPanel
 
   #Contact
   contact:
@@ -211,7 +219,7 @@ params:
       Discord: v3rm1n<br>
       '
     btnName: Mail me (Insecure)
-    btnlink: 'mailto:niklas.choinowski@tuta.com'
+    btnlink: 'mailto:niklas.choinowski@gmail.com'
 
     # formspree:
     #   enable: true # `contact.email` value will be ignored
