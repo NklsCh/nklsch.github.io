@@ -65,7 +65,7 @@ params:
     button:
       enable: true
       name: 'Resume'
-      url: 'https://paperless.choini.de/share/1z0LMmRN1p0wHzy4P5boIugu11YnvIdSrrhF5khz4KYv6WwCnX'
+      url: 'https://paperless.v3rm1n.dev/share/1z0LMmRN1p0wHzy4P5boIugu11YnvIdSrrhF5khz4KYv6WwCnX'
       download: true
       newPage: false
     socialLinks:
@@ -208,6 +208,18 @@ params:
         links:
           - icon: fa-solid fa-code
             url: https://github.com/Jas-SinghFSU/HyprPanel
+      - title: Homelab & Self-Hosted Projects
+        content:
+        image: /images/server.jpg
+        role: Administrator
+        badges:
+          - 'Linux'
+          - 'Proxmox'
+          - 'Cloudflared'
+          - 'MariaDB'
+        links:
+          - icon: fa-solid fa-code
+            url: https://kuma.v3rm1n.dev/status/overview
 
   #Contact
   contact:
