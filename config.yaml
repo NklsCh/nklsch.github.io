@@ -65,7 +65,7 @@ params:
     button:
       enable: true
       name: 'Resume'
-      url: 'https://paperless.v3rm1n.dev/share/1z0LMmRN1p0wHzy4P5boIugu11YnvIdSrrhF5khz4KYv6WwCnX'
+      url: 'https://paperless.v3rm1n.dev/share/vM30fou9JU3JeFz1kYBgXeS0v7s4tfSx09zNqtIbob1I9jL1ya'
       download: true
       newPage: false
     socialLinks:
