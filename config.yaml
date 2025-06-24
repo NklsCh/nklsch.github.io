@@ -185,7 +185,7 @@ params:
     items:
       - title: Proton Discord Bot
         content: A customizable Discord bot for server management.
-        image: https://opengraph.githubassets.com/7fa70ab8da2623ca2a9ce4932f6745705c7e1e36f01d099f2ddd364935cbbbe1/Proton-Discord-Bot/Proton
+        image: /images/projects/proton.png
         role: Lead Developer
         badges:
           - 'JavaScript'
@@ -197,7 +197,7 @@ params:
             url: https://github.com/Proton-Discord-Bot/Proton
       - title: NixOS Config
         content: My NixOS system config
-        image: https://opengraph.githubassets.com/latest/nklsch/nixos-config
+        image: /images/projects/nixos-config.png
         role: Maintainer
         badges:
           - 'Linux'
@@ -208,7 +208,7 @@ params:
             url: https://github.com/NklsCh/nixos-config
       - title: Jas-SinghFSU's HyprPanel
         content: A panel built for Hyprland with Astal
-        image: https://opengraph.githubassets.com/latest/Jas-SinghFSU/HyprPanel
+        image: /images/projects/hyprpanel.png
         role: Contributer
         badges:
           - 'Linux'
